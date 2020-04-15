@@ -3,5 +3,6 @@ def my_each(array)
   while(counter < array.length)
     puts array[counter]
     counter+=1
+    yield
   end
 end
